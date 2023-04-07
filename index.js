@@ -159,36 +159,17 @@ function updateStyle() {
     });
 }
 
-// function deleteStyle() {
-//   var id = prompt("Enter the ID of the item you want to delete:");
-//   var style = document.getElementById('styles');
-//   if (style) {
-//     style.remove();
-//     console.log("Item with ID " + id + " was deleted.");
-//   } else {
-//     console.log("Item with ID " + id + " not found.");
-//     alert("Item not found.");
-//   }
-// }
-
 function deleteStyle() {
-  const selectedStyleId = styles.querySelector('img').data.id;
-
-  fetch`('http://localhost:3000/styles')/$(selectedStyleId)`, {
-    method : 'DELETE'
+  var id = prompt("Enter the ID of the item you want to delete:");
+  var style = document.getElementById('styles');
+  if (style) {
+    style.remove();
+    console.log("Item with ID " + id + " was deleted.");
+  } else {
+    console.log("Item with ID " + id + " not found.");
+    alert("Item not found.");
   }
-  .then(response => {
-    if (response.ok){
-      const selectedStyle = document.querySelector(`li[data-id="${selectedSongId}"]`);
-      selectedStyle.remove();
-      styleInfo.innerHTML = '';
-      style.innerHTML = '';
-    }  else{
-      throw new Error('Something is wrong');  
-    }
-  })
 }
-
 
 function addItem() {
   var name = prompt("Enter the name of the item:");
