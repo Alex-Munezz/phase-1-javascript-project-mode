@@ -28,12 +28,12 @@ function displayStyles(data) {
     styleDiv.appendChild(price);
    
       const likeButton = document.createElement("button");
-      likeButton.textContent = "Likes"; 
+      likeButton.textContent = "Likes \uD83D\uDC4D"; 
     let count = 0
       likeButton.addEventListener("click", () => {
         likeStyle(style.id); 
         count ++; 
-        likeButton.textContent = `${count} likes`;
+        likeButton.textContent = `${count} likes \uD83D\uDC4D`;
       });
       styleDiv.appendChild(likeButton);
  
