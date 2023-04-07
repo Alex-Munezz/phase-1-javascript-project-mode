@@ -33,5 +33,8 @@ JSON
 Contributing
 Contributions to The Man Cave barber web app are always welcome! If you find a bug or have an idea for a new feature, please open an issue or submit a pull request.
 
+Author
+Alex Munene
+
 License
 The Man Cave barber web app is licensed under the MIT License. See the LICENSE file for more information.

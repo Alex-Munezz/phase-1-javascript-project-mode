@@ -1,7 +1,7 @@
 body{
 	background-image: url("https://thumbs.dreamstime.com/z/barber-shop-hairdresser-background-set-hairdressing-scissors-shaving-brush-razor-comb-man-salon-vector-illustration-84650937.jpg");
 	background-size:auto;
-	backdrop-filter: blur(20px);
+	backdrop-filter: blur(10px);
 }
 
 h1 {
