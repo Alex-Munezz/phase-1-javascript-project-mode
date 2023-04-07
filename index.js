@@ -131,6 +131,9 @@ function updateStyle() {
   if (document.getElementById("imageInput").value) {
     updatedFields.image = document.getElementById("imageInput").value;
   }
+  if (document.getElementById("priceInput").value) {
+    updatedFields.price = document.getElementById("priceInput").value;
+  }
   fetch(`http://localhost:3000/styles/${styleId}`, {
     method: "PATCH",
     headers: {
@@ -150,31 +153,55 @@ function updateStyle() {
       if (updatedFields.image) {
         styleElement.querySelector(".image").src = updatedFields.image;
       }
+      if (updatedFields.price) {
+        styleElement.querySelector(".price").src = updatedFields.price;
+      }
     });
 }
 
-function deleteItem() {
-  var id = prompt("Enter the ID of the item you want to delete:");
-  var item = document.getElementById(id);
-  if (item) {
-    item.remove();
-    console.log("Item with ID " + id + " was deleted.");
-  } else {
-    console.log("Item with ID " + id + " not found.");
-    alert("Item not found.");
+// function deleteStyle() {
+//   var id = prompt("Enter the ID of the item you want to delete:");
+//   var style = document.getElementById('styles');
+//   if (style) {
+//     style.remove();
+//     console.log("Item with ID " + id + " was deleted.");
+//   } else {
+//     console.log("Item with ID " + id + " not found.");
+//     alert("Item not found.");
+//   }
+// }
+
+function deleteStyle() {
+  const selectedStyleId = styles.querySelector('img').data.id;
+
+  fetch`('http://localhost:3000/styles')/$(selectedStyleId)`, {
+    method : 'DELETE'
   }
+  .then(response => {
+    if (response.ok){
+      const selectedStyle = document.querySelector(`li[data-id="${selectedSongId}"]`);
+      selectedStyle.remove();
+      styleInfo.innerHTML = '';
+      style.innerHTML = '';
+    }  else{
+      throw new Error('Something is wrong');  
+    }
+  })
 }
+
 
 function addItem() {
   var name = prompt("Enter the name of the item:");
   var description = prompt("Enter a description of the item:");
   var imageUrl = prompt("Enter the URL of the item's image:");
+  var price = prompt("Enter the price of the style")
   
   // Create a new item object
   var newItem = {
     name: name,
     description: description,
-    imageUrl: imageUrl
+    imageUrl: imageUrl,
+    price: price
   };
   
   // Add the item to the local storage
@@ -190,6 +217,7 @@ function addItem() {
     <h2>${newItem.name}</h2>
     <p>${newItem.description}</p>
     <img src="${newItem.imageUrl}">
+    <p>${newItem.price}</p>
   `;
   itemList.appendChild(newItemElement);
 }

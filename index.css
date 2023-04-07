@@ -26,8 +26,9 @@ h1 {
 
 fieldset{
 	width: 98.5%;
+		float: right;
+	}
 	
-}
 h2{
 	text-align: left;
 	color: black;

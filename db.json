@@ -2,10 +2,10 @@
   "styles": [
     {
       "id": 1,
-      "name": "1.The Buzz Cut",
+      "name": "1. The Buzz Cut",
       "description": "A short, military-style haircut.",
-      "image": "https://www.latest-hairstyles.com/wp-content/uploads/best-buzz-cuts-for-men.jpg",
-      "price": 20,
+      "image": "https://coolmenshair.com/wp-content/uploads/Asian-Buzz-Cut-1.jpg",
+      "price": "25",
       "likes": 10,
       "comments": []
     },
