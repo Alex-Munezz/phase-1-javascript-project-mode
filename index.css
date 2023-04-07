@@ -1,0 +1,47 @@
+body{
+	background-image: url("https://thumbs.dreamstime.com/z/barber-shop-hairdresser-background-set-hairdressing-scissors-shaving-brush-razor-comb-man-salon-vector-illustration-84650937.jpg");
+	background-size: contain;
+	backdrop-filter: blur(10px);
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-style: italic;
+	font-size: 50px;
+}
+ 
+  
+  input[type="text"] {
+	padding: 0.5rem;
+	border-radius: 0.15rem;
+	border: #161414;
+  }
+  
+
+ img {
+	width: 40%;
+	height: 40%;
+  }
+
+fieldset{
+	width: 98.5%;
+	
+}
+h2{
+	text-align: left;
+	color: black;
+	font-size: 20px;
+}
+form{
+	display: block;
+}
+h5{
+	text-align: left;
+	color: black;
+	font-size: 20px;
+}
+h6{
+	font-size: 25px;
+	color: white;	
+}

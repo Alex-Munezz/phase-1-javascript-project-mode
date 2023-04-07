@@ -1,0 +1,112 @@
+{
+  "styles": [
+    {
+      "id": 1,
+      "name": "1.The Buzz Cut",
+      "description": "A short, military-style haircut.",
+      "image": "https://www.latest-hairstyles.com/wp-content/uploads/best-buzz-cuts-for-men.jpg",
+      "price": 20,
+      "likes": 10,
+      "comments": []
+    },
+    {
+      "id": 2,
+      "name": "2.The Crew Cut",
+      "description": "A short, tapered haircut that's longer on top.",
+      "image": "https://content.latest-hairstyles.com/wp-content/uploads/faux-hawk-crew-cut-on-mens-thick-black-hair.jpg",
+      "price": 20,
+      "likes": 7,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "name": "3.The Undercut",
+      "description": "A popular style where the hair is short on the sides and longer on top.",
+      "image": "https://haircutinspiration.com/wp-content/uploads/Taper-Fade-Brushed-Back-Undercut.jpg",
+      "price": 25,
+      "likes": 12,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "name": "3.The French Crop",
+      "description": "A short, textured style with a fringe at the front.",
+      "image": "https://menshaircuts.com/wp-content/uploads/2022/10/french-crop-haircut-short-high-fade-textured-683x1024.jpg",
+      "price": 30,
+      "likes": 8,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "name": "5.The Ivy League",
+      "description": "A classic style with a short, tapered back and sides and longer hair on top.",
+      "image": "https://menshaircuts.com/wp-content/uploads/2022/02/ivy-league-haircut-tips-side-part-silver-ryan-reynolds-683x1024.jpg",
+      "price": 35,
+      "likes": 5,
+      "comments": []
+    },
+    {
+      "id": 6,
+      "name": "6.The Side Part",
+      "description": "A classic style with a deep side part and combed hair on top.",
+      "image": "https://content.latest-hairstyles.com/wp-content/uploads/high-fade-side-part-haircut.jpg",
+      "price": 40,
+      "likes": 14,
+      "comments": []
+    },
+    {
+      "id": 7,
+      "name": "7.The Slick Back",
+      "description": "A popular style where the hair is combed back with a shiny finish.",
+      "image": "https://hairmanz.com/wp-content/uploads/2021/02/slicked-back-hair-mainart.jpg",
+      "price": 45,
+      "likes": 9,
+      "comments": []
+    },
+    {
+      "id": 8,
+      "name": "8.The Textured Crop",
+      "description": "A short, textured style with a messy finish.",
+      "image": "https://hairmanz.com/wp-content/uploads/2021/02/textured-crop-haircuts-textured-hairstyles-17.jpg",
+      "price": 50,
+      "likes": 11,
+      "comments": []
+    },
+    {
+      "id": 9,
+      "name": "9.The Mohawk",
+      "description": "A bold, edgy style where the hair is shaved on the sides and spiked on top.",
+      "image": "https://www.menshairstyletrends.com/wp-content/uploads/2021/04/Cool-short-mohawk-burst-fade-dario_d_bordon-1024x1024.jpg",
+      "price": 55,
+      "likes": 6,
+      "comments": []
+    },
+    {
+      "id": 10,
+      "name": "10.The Faux Hawk",
+      "description": "A less extreme version of the Mohawk with shorter hair on the sides and a longer strip of hair.",
+      "image": "https://i.pinimg.com/originals/63/30/ea/6330ea1b223fd0a5a2f2a59a303c4135.jpg",
+      "price": 60,
+      "likes": 13,
+      "comments": []
+    },
+    {
+      "id": 11,
+      "name": "11.The Bald Men Anthem",
+      "description": "This is a shaving style where you are shaved completely with no hair remaining.",
+      "image": "https://i0.wp.com/www.k24tv.co.ke/wp-content/uploads/2021/08/Singer-Bien.jpg",
+      "price": 20,
+      "likes": 7,
+      "comments": []
+    },
+    {
+      "id": 12,
+      "name": "12.Box Fade",
+      "description": "Box fades were made infamous by some of the hottest rappers and ball players back in the late '80s and early '90s. You can still rock this high with a 3-5 cm top or a bit shorter for a tighter look. Who knows, this look may inspire you to write a demo.",
+      "image": "https://i.pinimg.com/736x/5f/a4/fb/5fa4fbe18d94fc840085a7a8670ce12b--fresh-haircuts-haircuts-for-men.jpg",
+      "price": 20,
+      "likes": 7,
+      "comments": []
+    }
+  ]
+}

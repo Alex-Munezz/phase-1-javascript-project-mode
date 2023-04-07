@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>THE MAN CAVE</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>The Man Cave Collection&#x1F60E;:</h1>
+    <fieldset>
+      <button onclick="location.reload()">Reload Page</button>
+
+    <h2 style="font-style: italic;">Search for your favourite styles by name or description&#x1F600;:</h2>
+    <input type="text" id="searchInput" onkeyup="search()" placeholder="Search..."></fieldset>
+   
+        <fieldset style="text-align: right; background-color: rgb(162, 5, 5);">
+        <h5 style="text-align: center;">Update A Style Here:</h5>
+        <p style="text-align: center;">The style id is the style number.</p>
+        <p style="text-align: center;">Remember to refresh the page for changes to appear😊</p>
+        <form>
+          <label>Name: </label>
+          <input type="text" id="nameInput">
+           <label>Description: </label>
+          <input type="text" id="descriptionInput">
+          <label>Image URL: </label>
+          <input type="text" id="imageInput">
+          <button type="button" onclick="updateStyle()">Update</button>
+        </form><br>
+        <button onclick="deleteItem()">Delete Style</button>
+        <button onclick="addItem()">Add Style</button>
+        </fieldset>
+        <h6>Let your hair do the talking and put your<strong style="color: black;"> head</strong> in our <strong style="color: black;">business.</strong></h6>
+        <div id="styles" style="font-size: 25px;">
+        </div>
+        <fieldset style="background-color: rgb(10, 124, 124);"> 
+          <br><br>
+            <div id="comments">
+              <h2 style="font-style: italic; text-align: center; color: black;">Comments about our services in general and prices:</h2>
+              <form style="text-align: center;">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" required></input><br>
+                <label for="comment" style="display: inline-block;">Comment:</label><br>
+                <input type="text, number" id="comment" required></input><br>
+                <button type="submit" id="submit">Submit</button><br>
+              </div>
+             <br> </form>
+            </fieldset>
+     <script src="index.js"></script>
+  </body>
+</html>
