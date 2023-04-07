@@ -14,19 +14,19 @@
    
         <fieldset style="text-align: right; background-color: rgb(162, 5, 5);">
         <h5 style="text-align: center;">Update A Style Here:</h5>
-        <p style="text-align: center;">The style id is the style number.</p>
-        <p style="text-align: center;">Remember to refresh the page for changes to appear😊</p>
+        <p style="text-align: center; font-size: 20px;">The style id is the style number.</p>
+        <p style="text-align: center; font-size: 20px">Remember to refresh the page for changes to appear😊</p>
         <form>
-          <label>Name: </label>
-          <input type="text" id="nameInput">
-           <label>Description: </label>
-          <input type="text" id="descriptionInput">
-          <label>Image URL: </label>
+          <label style="font-size: 20px;">Name: </label>
+          <input  type="text" id="nameInput">
+           <label style="font-size: 20px;">Description: </label>
+          <input  type="text" id="descriptionInput">
+          <label style="font-size: 20px;">Image URL: </label>
           <input type="text" id="imageInput">
-          <button type="button" onclick="updateStyle()">Update</button>
+          <button style="font-size: 20px;" type="button" onclick="updateStyle()">Update</button>
         </form><br>
-        <button onclick="deleteItem()">Delete Style</button>
-        <button onclick="addItem()">Add Style</button>
+        <button onclick="deleteItem()" style="font-size: 20px;">Delete Style</button>
+        <button onclick="addItem()" style="font-size: 20px;">Add Style</button>
         </fieldset>
         <h6>Let your hair do the talking and put your<strong style="color: black;"> head</strong> in our <strong style="color: black;">business.</strong></h6>
         <div id="styles" style="font-size: 25px;">
@@ -36,11 +36,11 @@
             <div id="comments">
               <h2 style="font-style: italic; text-align: center; color: black;">Comments about our services in general and prices:</h2>
               <form style="text-align: center;">
-                <label for="name">Name:</label><br>
+                <label for="name" style="font-size: 20px;">Name:</label><br>
                 <input type="text" id="name" required></input><br>
-                <label for="comment" style="display: inline-block;">Comment:</label><br>
+                <label for="comment" style="display: inline-block; font-size: 20px;" >Comment:</label><br>
                 <input type="text, number" id="comment" required></input><br>
-                <button type="submit" id="submit">Submit</button><br>
+                <button type="submit" id="submit" style="font-size: 20px;">Submit</button><br>
               </div>
              <br> </form>
             </fieldset>
